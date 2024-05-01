@@ -49,6 +49,13 @@ A collection of projects that we'll use to learn web scraping.
   - Species Name
   - Discription
 
+ - **Spoofing Headers**
+
+    Sometimes you need to make your web scraper appear to be making an HTTP requests as a browser in order to get the web server to return the same data that you see in your browser.
+
+    - returns "Headers properly spoofed, request appears to be coming from a browser :)" in the HTML.
+
+
 # How to Run?
 
 1. Clone this repository.
@@ -101,4 +108,11 @@ A collection of projects that we'll use to learn web scraping.
     ```
     cd turtles-iframes
     python3 turtles.py
+    ```
+
+  - Spoofing Headers
+
+    ```
+    cd spoofing-headers
+    python3 spoofing-headers.py
     ```
